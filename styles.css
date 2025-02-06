@@ -5,12 +5,27 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
+    flex-direction: column;
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .calculator {
     border-radius: 5px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #fff;
     width: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.calculator h2 {
+    margin-bottom: 20px;
 }
 
 .calculator-screen {
@@ -78,4 +93,9 @@ button.all-clear {
 
 button.all-clear:hover {
     background-color: #c82333;
+}
+
+.ti-84-calculator iframe {
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
