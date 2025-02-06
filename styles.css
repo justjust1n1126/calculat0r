@@ -23,7 +23,10 @@ body {
     margin: 20px;
     text-align: center;
 }
-
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto:
 .calculator h2 {
     margin-bottom: 20px;
 }
